@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82301E62-7CC8-4C0E-9671-630CA9D51D79}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IGAv2._0</RootNamespace>
+    <AssemblyName>IGAv2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocX">
+      <HintPath>..\..\tool\DocX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="com.godder.animal\AnimalAbstract.cs" />
+    <Compile Include="com.godder.animal\Bee.cs" />
+    <Compile Include="com.godder.animal\BeeAbstract.cs" />
+    <Compile Include="com.godder.animal\Cattle.cs" />
+    <Compile Include="com.godder.animal\CattleAbstract.cs" />
+    <Compile Include="com.godder.animal\Goat.cs" />
+    <Compile Include="com.godder.animal\GoatAbstrast.cs" />
+    <Compile Include="com.godder.animal\Horse.cs" />
+    <Compile Include="com.godder.animal\HorseAbstract.cs" />
+    <Compile Include="com.godder.animal\Pig.cs" />
+    <Compile Include="com.godder.animal\PigAbstract.cs" />
+    <Compile Include="com.godder.animal\Poultry.cs" />
+    <Compile Include="com.godder.animal\PoultryAbstract.cs" />
+    <Compile Include="com.godder.form\AnimalFormAbstract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\CattleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\CattleForm.Designer.cs">
+      <DependentUpon>CattleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\ConnectClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\ConnectClientForm.Designer.cs">
+      <DependentUpon>ConnectClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\ConnectServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\ConnectServerForm.Designer.cs">
+      <DependentUpon>ConnectServerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\DataShowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\DataShowControl.Designer.cs">
+      <DependentUpon>DataShowControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\GoatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\GoatForm.Designer.cs">
+      <DependentUpon>GoatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\OutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\OutForm.Designer.cs">
+      <DependentUpon>OutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\PictureManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\PictureManageForm.Designer.cs">
+      <DependentUpon>PictureManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\saveSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\saveSetForm.Designer.cs">
+      <DependentUpon>saveSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\socketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\socketForm.Designer.cs">
+      <DependentUpon>socketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com.godder.form\UserDefinedImgeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="com.godder.form\UserDefinedImgeForm.Designer.cs">
+      <DependentUpon>UserDefinedImgeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="com.godder.form\CattleForm.resx">
+      <DependentUpon>CattleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\ConnectClientForm.resx">
+      <DependentUpon>ConnectClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\ConnectServerForm.resx">
+      <DependentUpon>ConnectServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\DataShowControl.resx">
+      <DependentUpon>DataShowControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\GoatForm.byn.resx">
+      <DependentUpon>GoatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\GoatForm.en.resx">
+      <DependentUpon>GoatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\GoatForm.resx">
+      <DependentUpon>GoatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\GoatForm.zh-Hans.resx">
+      <DependentUpon>GoatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\OutForm.resx">
+      <DependentUpon>OutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\OutForm.zh-Hans.resx">
+      <DependentUpon>OutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\PictureManageForm.en.resx">
+      <DependentUpon>PictureManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\PictureManageForm.resx">
+      <DependentUpon>PictureManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\PictureManageForm.zh-Hans.resx">
+      <DependentUpon>PictureManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\saveSetForm.resx">
+      <DependentUpon>saveSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\saveSetForm.zh-Hans.resx">
+      <DependentUpon>saveSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\socketForm.resx">
+      <DependentUpon>socketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\UserDefinedImgeForm.resx">
+      <DependentUpon>UserDefinedImgeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="com.godder.form\UserDefinedImgeForm.zh-Hans.resx">
+      <DependentUpon>UserDefinedImgeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.en-GB.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.en.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.zh-CN.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.zh-Hans.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.zh.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sheep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\goat\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="configs\goatConfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>99</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

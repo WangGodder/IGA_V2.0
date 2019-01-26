@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="照片管理ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="照片管理ToolStripMenuItem.Text" xml:space="preserve">
+    <value>picture manage</value>
+  </data>
+  <data name="照片显示ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="照片显示ToolStripMenuItem.Text" xml:space="preserve">
+    <value>picture show</value>
+  </data>
+  <data name="长度单位ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="重量单位ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="countryComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 21</value>
+  </data>
+  <data name="widthLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 226</value>
+  </data>
+  <data name="lengthLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 226</value>
+  </data>
+  <data name="cmUnitLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 226</value>
+  </data>
+  <data name="cmUnitLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 226</value>
+  </data>
+  <data name="foreheadComboBox.Items1" xml:space="preserve">
+    <value>Wide</value>
+  </data>
+  <data name="foreheadComboBox.Items2" xml:space="preserve">
+    <value>flat</value>
+  </data>
+  <data name="foreheadComboBox.Items3" xml:space="preserve">
+    <value>narrow</value>
+  </data>
+  <data name="foreheadComboBox.Items4" xml:space="preserve">
+    <value>uplift</value>
+  </data>
+  <data name="cavelComboBox.Items1" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="cavelComboBox.Items2" xml:space="preserve">
+    <value>Stout</value>
+  </data>
+  <data name="cavelComboBox.Items3" xml:space="preserve">
+    <value>slender</value>
+  </data>
+  <data name="cavelComboBox.Items4" xml:space="preserve">
+    <value>large helix</value>
+  </data>
+  <data name="cavelComboBox.Items5" xml:space="preserve">
+    <value>small helix</value>
+  </data>
+  <data name="cavelComboBox.Items6" xml:space="preserve">
+    <value>arcuate</value>
+  </data>
+  <data name="cavelComboBox.Items7" xml:space="preserve">
+    <value>sickle</value>
+  </data>
+  <data name="cavelComboBox.Items8" xml:space="preserve">
+    <value>rotation</value>
+  </data>
+  <data name="cavelComboBox.Items9" xml:space="preserve">
+    <value>upright</value>
+  </data>
+  <data name="cavelComboBox.Items10" xml:space="preserve">
+    <value>inverted octagonal</value>
+  </data>
+  <data name="cavelComboBox.Items11" xml:space="preserve">
+    <value>ginger</value>
+  </data>
+  <data name="cavelComboBox.Items12" xml:space="preserve">
+    <value>small</value>
+  </data>
+  <data name="neckComboBox.Items1" xml:space="preserve">
+    <value>thick</value>
+  </data>
+  <data name="neckComboBox.Items2" xml:space="preserve">
+    <value>shrink</value>
+  </data>
+  <data name="neckComboBox.Items3" xml:space="preserve">
+    <value>long</value>
+  </data>
+  <data name="neckComboBox.Items4" xml:space="preserve">
+    <value>short</value>
+  </data>
+  <data name="noseComboBox.Items1" xml:space="preserve">
+    <value>Uplift</value>
+  </data>
+  <data name="noseComboBox.Items2" xml:space="preserve">
+    <value>straight</value>
+  </data>
+  <data name="noseComboBox.Items3" xml:space="preserve">
+    <value>concave</value>
+  </data>
+  <data name="tailComboBox.Items1" xml:space="preserve">
+    <value>Short fat tail</value>
+  </data>
+  <data name="tailComboBox.Items2" xml:space="preserve">
+    <value>long tail tail</value>
+  </data>
+  <data name="tailComboBox.Items3" xml:space="preserve">
+    <value>short thin tail</value>
+  </data>
+  <data name="tailComboBox.Items4" xml:space="preserve">
+    <value>fat buttocks tail</value>
+  </data>
+  <data name="tailComboBox.Items5" xml:space="preserve">
+    <value>long thin tail</value>
+  </data>
+  <data name="tailComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="earComboBox.Items1" xml:space="preserve">
+    <value>up-right</value>
+  </data>
+  <data name="earComboBox.Items2" xml:space="preserve">
+    <value>droop</value>
+  </data>
+  <data name="headComboBox.Items1" xml:space="preserve">
+    <value>big</value>
+  </data>
+  <data name="headComboBox.Items2" xml:space="preserve">
+    <value>middle</value>
+  </data>
+  <data name="headComboBox.Items3" xml:space="preserve">
+    <value>small</value>
+  </data>
+  <data name="tailWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 219</value>
+  </data>
+  <data name="genderComboBox.Items1" xml:space="preserve">
+    <value>male</value>
+  </data>
+  <data name="genderComboBox.Items2" xml:space="preserve">
+    <value>female</value>
+  </data>
+  <data name="tailLengthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 221</value>
+  </data>
+  <data name="limbsComboBox.Items1" xml:space="preserve">
+    <value>Stout</value>
+  </data>
+  <data name="limbsComboBox.Items2" xml:space="preserve">
+    <value>slender</value>
+  </data>
+  <data name="limbsComboBox.Items3" xml:space="preserve">
+    <value>tall legs</value>
+  </data>
+  <data name="limbsComboBox.Items4" xml:space="preserve">
+    <value>short legs</value>
+  </data>
+  <data name="limbsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="skinColorComboBox.Items1" xml:space="preserve">
+    <value>white</value>
+  </data>
+  <data name="skinColorComboBox.Items2" xml:space="preserve">
+    <value>black</value>
+  </data>
+  <data name="skinColorComboBox.Items3" xml:space="preserve">
+    <value>pink</value>
+  </data>
+  <data name="skinColorComboBox.Items4" xml:space="preserve">
+    <value>red</value>
+  </data>
+  <data name="coatColorComboBox.Items1" xml:space="preserve">
+    <value>all-white</value>
+  </data>
+  <data name="coatColorComboBox.Items2" xml:space="preserve">
+    <value>all-black</value>
+  </data>
+  <data name="coatColorComboBox.Items3" xml:space="preserve">
+    <value>all-brown</value>
+  </data>
+  <data name="coatColorComboBox.Items4" xml:space="preserve">
+    <value>head-black </value>
+  </data>
+  <data name="coatColorComboBox.Items5" xml:space="preserve">
+    <value>head-brown</value>
+  </data>
+  <data name="coatColorComboBox.Items6" xml:space="preserve">
+    <value>Spotted</value>
+  </data>
+  <data name="coatColorComboBox.Items7" xml:space="preserve">
+    <value>linen"</value>
+  </data>
+  <data name="pictureManageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
+  </data>
+  <data name="pictureManageToolStripMenuItem.Text" xml:space="preserve">
+    <value>picture manage</value>
+  </data>
+  <data name="pictureContextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 70</value>
+  </data>
+</root>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <shape>
+    <width>800</width>
+    <height>600</height>
+  </shape>
+  <language>en-US</language>
+  <lengthUnit>0</lengthUnit>
+  <weightUnit>0</weightUnit>
+  <openUrl>F:\VSProject\IGAv2.0\IGAv2.0\data\goat</openUrl>
+  <saveUrl>F:\VSProject\IGAv2.0\IGAv2.0\data\goat</saveUrl>
+  <isSaveKey>false</isSaveKey>
+  <saveKey></saveKey>
+  <autoVerify>true</autoVerify>
+  <defaultKey>234</defaultKey>
+  <imgUrl>default directory</imgUrl>
+  <socketUrl>F:\VSProject\IGAv2.0\IGAv2.0\data\goat</socketUrl>
+  <port>6666</port>
+  <listen>10</listen>
+  <socketKey></socketKey>
+  <serveripV6>false</serveripV6>
+  <clientipV6>false</clientipV6>
+  <socketUrl></socketUrl>
+  <connectHistory>
+    <address>192.168.248.1:6666</address>
+  </connectHistory>
+</form>
